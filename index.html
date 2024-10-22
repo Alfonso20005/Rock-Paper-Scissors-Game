@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="particulasFondo/style.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="overlay">
+        <div class="number">3</div>
+    </div>
+
+    <div id="particles-js">
+        <h1>Rock Paper Scissors Game</h1>
+        <img class="imagenesIzq" src="imagenes/paperIzq.svg">
+        <img class="imagenesDerecha" src="imagenes/paperDer.svg">
+        <div id="divButton">
+            <button class="btn posBtn1" value="tijeras">Scissors ✂️</button>
+            <button class="btn posBtn2" value="papel">Paper 🖐️</button>
+            <button class="btn posBtn3" value="piedra">Rock ✊</button>
+        </div>
+        <div class="you">You:</div>
+        <div class="computer">Computer:</div>
+        <div class="result result-computer-wins" id="lose">Computer wins!!</div>
+        <div class="result result-tie" id="tied">You tied!!</div>
+        <div class="result result-you-win" id="win">You win!!</div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script src="particulasFondo/particles.js"></script>
+    <script src="particulasFondo/app.js"></script>
+</body>
+</html>
